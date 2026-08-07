@@ -508,4 +508,7 @@ nav{
         text-align: center;
         padding: 10px;
     }
+    .line-3,.line-4{
+        display: none;
+    }
 }
