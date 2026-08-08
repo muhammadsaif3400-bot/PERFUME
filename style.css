@@ -475,39 +475,41 @@ nav{
         font-size: 45px;
     }
 
-    .links{
-        flex-direction: column;
-        height: auto;
-        padding: 25px;
-        gap: 25px;
-        text-align: center;
-    }
+.links{
+    flex-direction:column;
+    height:auto;
+    gap:35px;
+    padding:30px 20px;
+}
 
-    .newsletter{
-        margin: 0;
-        text-align: center;
-    }
+.newsletter,
+.quick,
+.services,
+.subscribe{
+    margin:0;
+    text-align:center;
+}
 
-    .social{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
+.line-7{
+    display:none;
+}
 
-    .subscribe input{
-        width: 100%;
-    }
+.subscribe input{
+    width:100%;
+}
 
-    .btn-4{
-        width: 100%;
-        padding: 15px;
-    }
+.btn-4{
+    width:100%;
+    padding:15px;
+}
 
-    footer{
-        font-size: 16px;
-        text-align: center;
-        padding: 10px;
-    }
+footer{
+    font-size:16px;
+    text-align:center;
+    padding:15px;
+    height:auto;
+}
+
     .line-3,.line-4{
         display: none;
     }
