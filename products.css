@@ -158,29 +158,20 @@ nav ul li a:hover::after{
 }
 .of{
   margin-left: 335px;
+  margin-top: 20px;
 }
 .of h6{
     font-size: 25px;
     font-family: sans-serif;
 }
-.select{
-    border: 1px solid black;
-    background: transparent;
-    margin-right: 335px;
-    text-align: center;
+.search-box input{
     width: 250px;
     height: 50px;
-}
-.select p{
-    font-size: 20px;
-    font-family: sans-serif;
-    margin-top: 10px;
-}
-.select select{
-    border: none;
-    font-size: 20px;
-    font-family: sans-serif;
-    background: transparent;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid black;
+    outline: none;
+    margin-right: 335px;
 }
 .container{
     display: flex;
@@ -493,6 +484,10 @@ footer{
         margin-right: 0;
         height: 50px;
     }
+    .select input{
+        width: 100%;
+        font-size: 16px;
+    }
     .select p{
         margin-bottom: 3px;
     }
@@ -501,6 +496,7 @@ footer{
         flex-direction: column;
         align-items: center;
         gap: 30px;
+        margin-top: 100px;
     }
 
     .box{

@@ -352,6 +352,11 @@ nav ul li a:hover::after{
     font-size: 20px;
     font-family: sans-serif
 }
+.story a{
+    color: blue;
+    text-decoration: blue;
+    cursor: pointer;
+}
 .services ul li a{
    color: gray;
    display: grid;

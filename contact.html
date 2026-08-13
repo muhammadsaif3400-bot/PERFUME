@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>PERFUME LUXURY SCENTS</title>
+    <script defer src="./script.js"></script>
 </head>
 <body>
            <nav>
@@ -44,15 +45,15 @@
     <div class="line-2"></div>
     <form>
         <p>YOUR NAME</p>
-        <input type="name" placeholder="Enter your name">
+        <input onblur="changebg()" id="input_1" onfocus="data1()" placeholder="Enter your name">
         <p>EMAIL ADDRESS</p>
-        <input type="email" placeholder="Enter your email">
+        <input onblur="changegg()" id="input_2" onfocus="data2()" placeholder="Enter your email">
         <p>SUBJECT</p>
-        <input type="subject" placeholder="Enter your subject">
+        <input onblur="changecg()" id="input_3" onfocus="data3()" type="subject" placeholder="Enter your subject">
         <p>MESSAGE</p>
-        <textarea placeholder="Type your message here"></textarea>
+        <textarea onblur="changedg()" id="input_4" onfocus="data4()" placeholder="Type your message here"></textarea>
         </form>
-        <button class="btn-1" type="button">SEND MESSAGE →</button>
+        <button onclick="data()" class="btn-1">SEND MESSAGE →</button>
 </div>
 <div class="line-4"></div>
 <div class="information">
